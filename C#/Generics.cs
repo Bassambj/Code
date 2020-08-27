@@ -53,7 +53,7 @@ namespace SoloLearn{
         
         public T Get(int k){
 		return innerArray[k];
-			   }
+		}
     }
     
 	
@@ -73,8 +73,7 @@ namespace SoloLearn{
 		    List<int> li = new List<int>();
 		    
 		    //Generic HashSet
-		    HashSet<int> hs = new HashSet<int>();
-		    
+		    HashSet<int> hs = new HashSet<int>();		    
 		    
 		    Console.WriteLine("= = = = = = = = = = = = = = =");
 		    Console.WriteLine("C# - Generic Methods");
@@ -106,13 +105,12 @@ namespace SoloLearn{
 		    Console.WriteLine(" ");
 		    Console.WriteLine("= = = = = = = = = = = = = = =");
 		    Console.WriteLine("Generic Class");
-		    Console.WriteLine("Stack<int> intStack = new Stack<int>();");
-		    
+		    Console.WriteLine("Stack<int> intStack = new Stack<int>();");		    
 		    Console.WriteLine(" ");
+			
 		    Stack<int> intStack = new Stack<int>();
 		    
 		    Console.WriteLine("Example:");
-		    
 		    Console.WriteLine("for (int x = 0; x <= 2; x++)");
 		    Console.WriteLine(" intStack.Push(x*2);");
 		    Console.WriteLine(" intStack{x} = intStack.Get(x)");
@@ -120,8 +118,8 @@ namespace SoloLearn{
 			
 		    for (int x = 0; x <= 2; x++){
 			    intStack.Push(x*2);
-			    Console.WriteLine("intStack{"+x+"} = "+intStack.Get(x));			    	    
-            		}
+			    Console.WriteLine("intStack{"+x+"} = "+intStack.Get(x));
+			    }
             
 		}		
 	}
